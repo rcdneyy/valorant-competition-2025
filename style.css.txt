@@ -1,0 +1,55 @@
+body {
+  background: D3D3D3;
+  color: cool grey;
+  font-family: Arial, Tungsten;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FF0000
+  padding: 20px
+  text-align: center;
+
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 30px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "▶ ";
+  color: #ff4655;
+}
+
+footer {
+  background-color: #1a1a2e;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
